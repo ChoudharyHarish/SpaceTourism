@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width: 375px)" href="responsive.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+
+  <section id="destination">
+
+    <div id="navbar">
+      <div class="logo">
+        <img src="assets/shared/logo.svg" alt="">
+      </div>
+      <span class = row></span>
+      <div class="menu" id="menu">
+        <a href="index.html">00 Home</a>
+        <a href="destination-moon.html">01 Destination</a>
+        <a href="crew-commander.html">02 Crew</a>
+        <a href="technology-vehicle.html">03 Technology</a>
+      </div>
+      <div class="hamburger" onclick="myfunction(this)">
+        <span class="hamburger-icon bar1"></span>
+        <span class="hamburger-icon bar2"></span>
+        <span class="hamburger-icon bar3"></span>
+      </div>
+  
+    </div>
+    
+    <div class="vertical-container">
+
+      <h2 class="h-secondary">01 Pick your destination</h2>
+
+      <div class="horizontal-container">
+        <div class="left-container">
+          <img src="assets/destination/image-europa.png" alt="" class="img-resp">
+        </div>
+
+        <div class="right-container">
+          <div class="list-menu">
+            <a href="destination-moon.html">Moon</a>
+            <a href="destination-mars.html"> Mars</a>
+            <a href="destination-europa.html">Europa</a>
+            <a href="destination-titan.html">Titan</a>
+          </div>
+
+          <h1 class="h-primary-sections">Europa</h1>
+
+          <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+            winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+            ice skating, curling, hockey, or simple relaxation in your snug 
+            wintery cabin.</p>
+
+          <div class="horizontal-container" style="margin-top: 1rem;">
+            <div class="distane-time-val">
+              <p>Avg. distance</p>
+              <span class="distance">628 mil. km</span>
+            </div>
+            <div class="distane-time-val">
+              <p>Est. travel time</p>
+              <span class="distance">3 years </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+<script src="hamburger.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Poppins';
+    color: #D0D6F9;
+}
+.h-primary{
+    font-size: 90px;
+    line-height:110px;
+    
+}
+.h-primary-sections{
+    font-size: 56px;
+}
+.h-secondary{
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.h-secondary-sections{
+    font-size: 24px;
+    line-height: 35px;
+}
+h3{
+    font-size: 15px;  
+   margin-bottom: 0rem;
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+    text-align:center;
+    width: 290px;
+}
+.para{
+    margin-top: 0rem;
+    text-align: justify;
+    font-size: 14px;
+}
+#home{
+    background-image: url(assets/home/background-home-mobile.jpg);
+    height: 100vh;
+}
+#navbar{
+    padding: 0rem;
+   position: inherit; 
+   padding: 1rem;
+}
+.logo{
+    margin-left: 0.5rem;
+}
+.row{
+    height:0px;
+    width: 0px;
+}
+ .menu{
+    flex-direction: column;
+    top: 0rem;
+    padding: 0rem;
+    height: 100vh;
+    display: none;
+    width: 100%;
+    z-index: 2;
+    width: 60%;
+    padding: 8rem 1rem;
+    background: rgba(255,255,255,0.04);
+    transition: all 0.5s ease-in-out;
+ }
+
+ .hamburger{
+     z-index: 3;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem;
+        position: absolute;
+        right: 0rem;
+     }
+.hamburger-icon{
+    height: 3px;
+    width: 45px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    margin: 0.4rem;
+    transition: 0.4s;
+}
+.change .bar1 {
+    transform: rotate(-45deg) translate(-15px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: rotate(45deg) translate(-16px, -8px) ;
+  }
+
+a{
+    letter-spacing: 2.7px;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 1.4rem 1.4rem;
+}
+
+.container{
+    flex-direction: column;
+    top: 8rem;
+    padding: 2rem;
+}
+.content-container{
+    width: 100%;
+    right: 0rem;
+}
+
+.explore{
+    height: 125px;
+    width: 125px;
+    top:2rem;
+    left: 0rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+
+
+/* Section - Destination here  */
+
+#destination{
+    background: url(assets/destination/background-destination-mobile.jpg) no-repeat center center/cover;
+    overflow: scroll;
+}
+
+.vertical-container{
+    padding: 0rem;
+}
+.horizontal-container{
+    flex-direction: column;
+    margin: 0rem;
+    align-items: center;
+    padding: 1rem;
+}
+.list-menu{
+    display: flex;
+    justify-content: center;
+    padding:5px;
+}
+.list-menu a{
+    margin: 0rem;
+    font-size: 15px;
+}
+.left-container{
+    width: 65%;
+}
+.right-container{
+    width: 100%;
+    margin-left: 0rem;
+    align-items: center;
+}
+
+.distane-time-val{
+text-align: center;
+padding-bottom: 1.5rem;
+padding-top: 0rem;
+margin-right: 0rem;
+}
+
+/* Section crew commander starts here  */
+
+#crew-commander{
+    background: url(assets/crew/background-crew-mobile.jpg) no-repeat center center/cover;
+    height:100vh;
+}
+
+ .vertical-container2{
+    padding: 0rem;
+    align-items: center;
+}
+.horizontal-container2{
+   flex-direction: column-reverse;
+   height: 100%;
+   width: 100vw;
+   margin-top: 0rem;
+   margin-left: 0rem;
+   align-items: center;
+   justify-content: flex-end;
+   padding-top: 3rem;
+}
+
+.indicators{
+    padding-left: 0rem;
+    justify-content: center;
+    display: flex;
+    top:21rem;
+    left: 7rem;
+}
+.left-container2{
+    display: flex;
+    align-items:center;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    justify-content: center;
+} 
+.left-container2 img{
+    border-bottom: 3px solid rgba(255,255,255,0.04);
+    height: 250px;
+    width: 250px;
+}
+.right-container2{
+    margin-right: 0rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.slider-box{
+    position: absolute;
+    left: 0rem;
+    width: 100%;
+}
+
+/* Section technology starts here  */
+
+#slider2{
+    align-items: center;
+}
+.vertical-container3{
+    padding-left: 0rem;
+    padding-top: 0rem;
+}
+.horizontal-container3{
+margin: 0rem;
+flex-direction: column-reverse;
+width: 100vw;
+height: 81vh;
+}
+.right-container3{
+    margin-right: 0rem;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 6rem;
+}
+.right-container3 p{
+    width: 90%;
+}
+.left-container3{
+    height: 30vh;
+}
+.left-container3 img{
+    height: 100%;
+    width: 100%;
+}
+.indicators-circle {
+    flex-direction: row;
+    top: 15.5%;
+    left: 5rem;
+}

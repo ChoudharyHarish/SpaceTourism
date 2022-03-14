@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    color: #D0D6F9;
+}
+#home{
+    background-image: url(assets/home/background-home-desktop.jpg);
+    height: 100vh;
+}
+
+.h-primary{
+    /* font-family: 'Bellefair'; */
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10rem;
+    line-height: 12rem;
+}
+.h-primary-sections{
+    /* font-family: 'Bellefair'; */
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 6.5rem;
+}
+.h-secondary{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 3.5px;
+}
+.h-secondary-sections{
+    font-weight: 400;
+    font-size: 3.3rem;
+    line-height: 4.5rem;
+   text-transform: uppercase;
+   letter-spacing: 3.5px;
+}
+h3{
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 3.5px;
+   color:#FFFFFF;
+   opacity: 0.5;
+   mix-blend-mode: normal;
+   margin-bottom: 1rem;
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 32px;
+}
+.para{
+    margin-top: 3rem;
+}
+#navbar{
+    padding: 1.2rem;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    
+}
+.hamburger{
+    display: none;
+}
+.img-resp{
+   height: auto;
+   max-width: 100%;
+}
+.logo{
+    height: auto;
+    max-width: 100%;
+    margin-left: 2rem;
+}
+.menu{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    position: absolute;
+    right: 0rem;
+    padding: 1.8rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.row{
+    height:2px;
+    width: 31rem;
+    background-color: #242529;;
+    position: absolute;
+    left: 9rem;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0rem 0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.menu a:active{
+    color: #a6a7f8;
+}
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #a6a7f8;
+    transition: width .5s;
+}
+
+a:hover::after {
+    width: 100%;
+}
+a:hover{
+    color: #a6a7f8;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15rem;
+}
+.content-container{
+    width: 35%;
+    position: relative;
+    right: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left:10rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+ 
+/* Section destination starts here */
+
+#destination{
+    background: url(assets/destination/background-destination-desktop.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+     padding: 10rem 6rem 2rem 6rem;
+}
+.horizontal-container{
+   display: flex;
+   margin-top: 3rem;
+   justify-content: flex-start;
+}
+.left-container{
+    width: 30%;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 50%;
+    height: 100%;
+    margin-left: 12rem;
+}
+
+.distane-time-val{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+
+/* Section crew commander starts here  */
+
+#crew-commander{
+    background: url(assets/crew/background-crew-desktop.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+.slider-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#slider{
+    display: flex;
+    flex-direction: row;
+    transition: 1s all ease;
+}
+
+.indicators{
+    position: absolute;
+    bottom: 1.2rem;
+    width: 10%;
+    padding-left: 2rem;
+}
+
+.indicators span{
+    height: 15px;
+    width: 15px;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+.active{
+    background:rgb(255, 255, 255) !important;
+}
+ .vertical-container2{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 5rem 0rem 6rem;
+    align-items: flex-start;
+}
+.horizontal-container2{
+   display: flex;
+   justify-content: flex-start;
+   height: 68.3vh;
+   width: 89vw;
+   margin-top: 2rem;
+   margin-left: 2rem;
+}
+
+.left-container2{
+    display: flex;
+    align-items:flex-end;
+} 
+.right-container2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Section Technology starts here  */
+#technology{
+    background: url(assets/technology/background-technology-desktop.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#slider2{
+    display: flex;
+    flex-direction: column;
+    transition: 1s all ease;
+}
+.indicators-circle{
+    position: absolute;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicators-circle span{
+    border: 1px solid #a7b4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem;
+    color: white;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+}
+.indicators-circle span:hover{
+    border: 1px solid #FFFFFF;
+}
+.active2{
+    background:#FFFFFF!important;
+    color: #0B0D17 !important;
+}
+.vertical-container3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem; 
+    padding-left: 4rem;
+    align-items: flex-start;
+}
+
+.horizontal-container3{
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 3rem;
+   width: 100%;
+   width: 89vw;
+   height: 63.5vh;
+  margin-left: 4rem;
+}
+
+.left-container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    width: 100%;
+}
+
+
