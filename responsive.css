@@ -240,8 +240,10 @@ a{
 
 .container{
     flex-direction: column;
-    top: 8rem;
-    padding: 2rem;
+    top: 5rem;
+    padding: 0rem;
+    height:72vh;
+    width: 100vw;
 }
 .content-container{
     width: 100%;
