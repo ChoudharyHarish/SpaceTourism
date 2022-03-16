@@ -366,7 +366,7 @@ margin-right: 0rem;
 margin: 0rem;
 flex-direction: column-reverse;
 width: 100vw;
-height: 83vh;
+height: 76vh;
 }
 .right-container3{
     margin-right: 0rem;
@@ -386,7 +386,7 @@ height: 83vh;
 }
 .indicators-circle {
     flex-direction: row;
-    top: 15.5%;
+    top: 19%;
     left: 5rem;
 }
     
