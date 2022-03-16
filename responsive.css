@@ -50,8 +50,8 @@
     }
     .explore{
         left: 0rem;
-        height: 300px;
-        width: 300px;
+        height: 150px;
+        width: 150px;
         top: 6rem;
     }
     .vertical-container h2{
@@ -128,10 +128,7 @@
     }
 }
 @media only screen and (max-width: 475px){
-    
-    .slider-box{
-        align-items: center;
-    }    
+      
 .h-primary{
     font-size: 90px;
     line-height:110px;
@@ -167,9 +164,14 @@ p{
     text-align: justify;
     font-size: 14px;
 }
+.remove{
+    height: 0px;
+    width: 0px;
+}
 #home{
-    background-image: url(assets/home/background-home-mobile.jpg);
+    background: url(assets/home/background-home-mobile.jpg) no-repeat center center/cover;
     height: 100vh;
+    width: 100vw;
 }
 #navbar{
     padding: 0rem;
@@ -262,7 +264,10 @@ a{
     background: url(assets/destination/background-destination-mobile.jpg) no-repeat center center/cover;
     overflow: scroll;
 }
-
+.vertical-container{
+    padding: 0rem;
+    margin-top: 2rem;
+}
 
 
 .list-menu{
@@ -303,21 +308,21 @@ margin-right: 0rem;
 }
 .horizontal-container2{
    flex-direction: column-reverse;
-   height: 100%;
+   height: 100vh;
    width: 100vw;
    margin-top: 0rem;
    margin-left: 0rem;
    align-items: center;
    justify-content: flex-end;
-   padding-top: 3rem;
+   padding-top: 2rem;
 }
 
 .indicators{
     padding-left: 0rem;
     justify-content: center;
     display: flex;
-    top:21rem;
-    left: 7rem;
+    top:50%;
+    left: 8%;
 }
 .left-container2{
     display: flex;
@@ -334,12 +339,16 @@ margin-right: 0rem;
 .right-container2{
     margin-right: 0rem;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 1rem; 
+
 }
-.slider-box{
+#crew-commander-slider{
     position: absolute;
     left: 0rem;
-    width: 100%;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
 }
 
 /* Section technology starts here  */
@@ -355,7 +364,7 @@ margin-right: 0rem;
 margin: 0rem;
 flex-direction: column-reverse;
 width: 100vw;
-height: 81vh;
+height: 83vh;
 }
 .right-container3{
     margin-right: 0rem;
